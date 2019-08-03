@@ -18,12 +18,21 @@ namespace ConsoleApp2
             //evenly divisble by both 3 and 5 output the word "FizzBuzz".
 
             // Basic solution 1.
-            FizzBuzz1 fb1 = new FizzBuzz1();
-            fb1.WriteAnswer();
+            //FizzBuzz1 fb1 = new FizzBuzz1();
+            //fb1.WriteAnswer();
 
             //Alternative solution 2.
+            //FizzBuzz2 fb2 = new FizzBuzz2();
+            //fb2.WriteAnswer();
 
 
+
+
+
+            //Stop, collaborate and listen!
+            //Ice is back with a brand new invention.
+            //Something grabs a hold of me tightly.
+            //Will it ever stop? Yo, I don't know ...
             Console.ReadLine();
         }
     }
@@ -40,7 +49,7 @@ namespace ConsoleApp2
             return collection;
         }
     }
-    
+
 
     class FizzBuzz1
     {
@@ -57,13 +66,25 @@ namespace ConsoleApp2
                     Console.WriteLine("Buzz. i is " + i);
 
                 if ((i % 3 == 0) && (i % 5 == 0))
-                        Console.WriteLine("FizzBuzz. i is " + i);
+                    Console.WriteLine("FizzBuzz. i is " + i);
             }
         }
     }
 
     class FizzBuzz2
     {
-        //public void WriteAnswer()
+        public void WriteAnswer()
+        {
+            var collection = CollectionService.CreateCollection();
+
+            foreach (int i in collection)
+            {
+                if (i % 3 == 0)
+                    Console.Write("Fizz");
+
+                if (i % 5 == 0)
+                    Console.Write("Buzz");
+            }
+        }
     }
 }
