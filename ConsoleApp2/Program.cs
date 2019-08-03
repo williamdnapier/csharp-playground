@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -39,12 +40,19 @@ namespace ConsoleApp2
             //fb5.WriteAnswerFromMemory3();
             //fb5.WriteAnswerFromMemory4();
 
-            Console.WriteLine("Calling sync function ...");
-            Async1 a1 = new Async1();
-            a1.RunSyncFunc();
+            //Console.WriteLine("Calling sync function ...");
+            //Async1 a1 = new Async1();
+            //a1.RunSyncFunc();
 
-            Console.WriteLine("Calling async function ...");
-            a1.RunAsyncFunc();
+            //Console.WriteLine("Calling async function ...");
+            //a1.RunAsyncFunc();
+
+            Async2 a2 = new Async2();
+            a2.RunAsyncFunc();
+
+
+
+
 
             //Stop, collaborate and listen!
             //Ice is back with a brand new invention.
@@ -322,4 +330,59 @@ namespace ConsoleApp2
             Console.WriteLine(result);
         }
     }
+
+    class Async2
+    {
+        public void RunAsyncFunc()
+        {
+            //Start the HandleFileAsync method (task).
+            Task<int> task = HandleFileAsync();
+
+            //Control returns to the console before HandleFileAsync task is completed.
+            Console.WriteLine("Since I'm doing background stuff ... ");
+            Console.WriteLine("would you like to play a game while we wait?");
+
+            //Give the user a prompt.
+            string line = Console.ReadLine();
+
+            //Write the user reponse to screen. When HandleFileAsync comes back on this thread, we'll have a result.
+            Console.WriteLine("You entered: " + line);
+            Console.WriteLine("What's up with that?");
+
+            //Wait on HandleFileAsync task. Assign x when it returns.
+            task.Wait();
+            var x = task.Result;
+
+            //1483251 is string length.
+            Console.WriteLine("BTW, HandleFileAsync returned the length of file text: " + x);
+
+            Console.WriteLine("All done!");
+            Console.ReadLine();
+        }
+
+        static async Task<int> HandleFileAsync()
+        {
+            string file = @"C:\g\playground\ConsoleApp2\enable1.txt";
+            Console.WriteLine("I'm entering HandleFileAsync.");
+            int count = 0;
+
+            using (StreamReader reader = new StreamReader(file))
+            {
+                string v = await reader.ReadToEndAsync();
+
+                count += v.Length;
+
+                for (int i = 0; i < 10000; i++)
+                {
+                    int x = v.GetHashCode();
+                }
+
+                Console.WriteLine("I'm exiting HandleFileAsync.");
+                return count;
+            }
+
+        }
+    }
+
+
 }
