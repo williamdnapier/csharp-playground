@@ -68,6 +68,16 @@ namespace answers
 
             DynamicExample d = new DynamicExample();
 
+            StuffToRemember s = new StuffToRemember();
+
+            AsyncExample a1 = new AsyncExample();
+            Task myTask = a1.Go();
+            Task<int> myInt = a1.GetIq();
+            Console.WriteLine(myInt.Result);
+
+            DoAsyncStuff();
+
+
             //FizzBuzz
             //FizzBuzz.WriteAnswer();
 
@@ -81,6 +91,12 @@ namespace answers
 
         //Tuple - return a tuple from a method
         static (string, int) GetPerson() => ("Bob", 23);
+
+        async static void DoAsyncStuff()
+        {
+            AsyncExample a1 = new AsyncExample();
+            await Task.WhenAll(a1.Go(), a1.Go());
+        }
     }
 
     //Struct - value type object
@@ -215,13 +231,9 @@ namespace answers
         }
     }
 
-
+    //Access modifiers, inheritance, etc.
     public class StuffToRemember
     {
-        public StuffToRemember()
-        {
-            //
-        }
 
         //Fully accessible.
         public int publicmember = 1;
@@ -237,6 +249,58 @@ namespace answers
 
         //Accessible within containing assembly, friend assembly, containing type and subclasses.
         protected internal int protectedinternalmember = 5;
+
+        public class BaseClass
+        {
+            public virtual string Name => "Base";
+        }
+
+        public class SubBaseClass: BaseClass
+        {
+            private string _Name = "Sub";
+            public override string Name => _Name;
+        }
+
+        public StuffToRemember()
+        {
+            BaseClass d = new BaseClass();
+            SubBaseClass b = new SubBaseClass();
+
+            //Upcast. Create baseclass reference from subbaseclass.
+            BaseClass a = b;
+
+            //Downcast. Create subbaseclass from baseclass.
+            SubBaseClass c = (SubBaseClass)a;
+
+            Console.WriteLine(a.Name);
+            Console.WriteLine(b.Name);
+            Console.WriteLine(c.Name);
+            Console.WriteLine(d.Name);
+
+        }
+    }
+
+    //Async
+    public class AsyncExample
+    {
+        async Task GetAnswerToLife()
+        {
+            await Task.Delay(3000);
+            int answer = 42;
+            Console.WriteLine(answer);
+        }
+
+        public async Task Go()
+        {
+            await GetAnswerToLife();
+            Console.WriteLine("Done");
+        }
+
+        public async Task<int> GetIq()
+        {
+            await Task.Delay(100);
+            return 72;
+        }
     }
 
 }
