@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DelegateExample.cs" />
+    <Compile Include="EnumExample.cs" />
+    <Compile Include="GenericExample.cs" />
+    <Compile Include="InterfaceExample.cs" />
+    <Compile Include="StructExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

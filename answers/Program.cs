@@ -13,69 +13,72 @@ namespace answers
         static void Main(string[] args)
         {
             //Struct
-            Coords coords1 = new Coords(1,2);
-            Console.WriteLine("x = {0}, y = {1}", coords1.x, coords1.y);
-
+            //Light-weight value type object
+            StructExample se = new StructExample(21, 21);
+            se.Write();
 
             //Interface
-            Document doc = new Document();
-            doc.Read();
-            object o = new object();
-            doc.Write(o);
-
+            //Abstract spec for a class. Class can inherit multiple interfaces.
+            InterfaceExample ie = new InterfaceExample();
+            ie.Read();
+            ie.Write();
 
             //Enum
-            BorderSide leftBorder = BorderSide.Left;
-            bool isLeft = leftBorder == BorderSide.Left;
-
+            //A distinct listed of numeric named constants.
+            EnumExample ee = EnumExample.Top;
+            bool isTop = ee == EnumExample.Top;
+            Console.WriteLine("ExampleEnum isTop value is " + isTop);
 
             //Generics
-            GenericList<int> list1 = new GenericList<int>();
-            list1.Add(1);
-            GenericList<string> list2 = new GenericList<string>();
-            list2.Add("string");
+            //Increase type safety and reduce casting.
+            //Alternative to inheritance.
+            GenericExample<string> ge = new GenericExample<string>();
+            ge.Add("string input");
+            Console.WriteLine("GenericExample prop1 value is " + ge.prop1);
 
 
             //Delegate
-            Transformer t = Square;
-            int result = t(3);
-            Console.WriteLine(result);
+            //Assign the delegate target method.
+            DelegateExample de = DelegateExampleClass.Square;
+            //Call the delegate caller method and get output.
+            int r = de(2);
+            Console.WriteLine("DelegateExample r variable value is " + r);
 
 
             //Lambda Expression
             //It is unnamed method in place of delegate.
-            Transformer sqr = x => x * x;
+            DelegateExample de2 = x => x * x;
 
             //Lambda expression with captured variable is a closure.
             int factor = 2;
             Func<int, int> multiplier = n => n * factor;
 
 
-            //Extension method
-            Console.WriteLine("Wayne".IsCapitalized());
+            ////Extension method
+            //Console.WriteLine("Wayne".IsCapitalized());
 
 
-            //Anon Type
-            //Simple class created on the fly - mainly for LINQ queries.
-            var guy = new { Name = "Bill", Age = 44 };
+            ////Anon Type
+            ////Simple class created on the fly - mainly for LINQ queries.
+            //var guy = new { Name = "Bill", Age = 44 };
 
 
-            //Tuples
-            //Return multiple values from method without out param
-            (string, int) bob = ("Bob", 23);
-            bob = GetPerson();
+            ////Tuples
+            ////Return multiple values from method without out param
+            //(string, int) bob = ("Bob", 23);
+            //bob = GetPerson();
 
 
-            DynamicExample d = new DynamicExample();
+            //DynamicExample d = new DynamicExample();
 
-            StuffToRemember s = new StuffToRemember();
+            //StuffToRemember s = new StuffToRemember();
 
-            AsyncExample a1 = new AsyncExample();
-            Task myTask = a1.Go();
-            Task<int> myInt = a1.GetIq();
-            Console.WriteLine(myInt.Result);
+            //AsyncExample a1 = new AsyncExample();
+            //Task myTask = a1.Go();
+            //Task<int> myInt = a1.GetIq();
+            //Console.WriteLine(myInt.Result);
 
-            DoAsyncStuff();
+            //DoAsyncStuff();
 
 
             //FizzBuzz
@@ -86,9 +89,6 @@ namespace answers
             Console.ReadLine();
         }
 
-        //Delegate target method
-        static int Square(int x) => x * x;
-
         //Tuple - return a tuple from a method
         static (string, int) GetPerson() => ("Bob", 23);
 
@@ -96,18 +96,6 @@ namespace answers
         {
             AsyncExample a1 = new AsyncExample();
             await Task.WhenAll(a1.Go(), a1.Go());
-        }
-    }
-
-    //Struct - value type object
-    public struct Coords
-    {
-        public int x, y;
-
-        public Coords(int p1, int p2)
-        {
-            x = p1;
-            y = p2;
         }
     }
 
@@ -138,44 +126,6 @@ namespace answers
         }
     }
 
-    //Interface - abstract spec for a class. Classes can inherit multiple.
-    interface IStorable
-    {
-        void Read();
-        void Write(object o);
-        int Status { get; set; }
-    }
-    public class Document : IStorable
-    {
-        public int Status { get; set; }
-
-        public void Read()
-        {
-            Console.WriteLine("Document implementing IStorable Read");
-        }
-
-        public void Write(object o)
-        {
-            Console.WriteLine("Document implementing IStorable Write");
-        }
-    }
-
-    //Enum - value type, group of numeric constants
-    public enum BorderSide
-    {
-        Left,
-        Right
-    }
-
-    //Generics - increase type safety and reduce casting
-    public class GenericList<T>
-    {
-        public void Add(T input) { }
-    }
-
-    //Delegate - wires up caller method to target method at runtime.
-    //Delegate caller method definition.
-    delegate int Transformer(int x);
 
     //Extension Method - static method of static class where 'this' modifier applied to first parameter.
     public static class StringHelper
