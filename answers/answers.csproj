@@ -44,7 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DelegateExample.cs" />
+    <Compile Include="DynamicExample.cs" />
     <Compile Include="EnumExample.cs" />
+    <Compile Include="ExtensionMethodExample.cs" />
     <Compile Include="GenericExample.cs" />
     <Compile Include="InterfaceExample.cs" />
     <Compile Include="StructExample.cs" />

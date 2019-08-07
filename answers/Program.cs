@@ -54,22 +54,30 @@ namespace answers
             Func<int, int> multiplier = n => n * factor;
 
 
-            ////Extension method
-            //Console.WriteLine("Wayne".IsCapitalized());
+            //Extension Method
+            //Static method of static class where 'this' modifier applied to first parameter.
+            Console.WriteLine("ExtensionMethodExample output is " + "Bill".IsCapitalized());
 
 
-            ////Anon Type
-            ////Simple class created on the fly - mainly for LINQ queries.
-            //var guy = new { Name = "Bill", Age = 44 };
+            //Anon Type
+            //Simple class created on the fly - mainly for LINQ queries.
+            var guy = new { Name = "Bill", Age = 44 };
 
 
-            ////Tuples
-            ////Return multiple values from method without out param
-            //(string, int) bob = ("Bob", 23);
-            //bob = GetPerson();
+            //Tuples
+            //Return multiple values from method without out param
+            (string, int) iz = ("Iz", 9);
+            iz = GetPerson();
+            (int, int) tup = (9, 13);
+            Console.WriteLine("TupleExample tup item1 value is " + tup.Item1);
+            Console.WriteLine("TupleExample tup item2 value is " + tup.Item2);
 
 
-            //DynamicExample d = new DynamicExample();
+            dynamic d2 = new DynamicExample2();
+            d2.Walk();
+            d2.Run();
+            d2.Hide();
+
 
             //StuffToRemember s = new StuffToRemember();
 
@@ -127,20 +135,6 @@ namespace answers
     }
 
 
-    //Extension Method - static method of static class where 'this' modifier applied to first parameter.
-    public static class StringHelper
-    {
-        public static bool IsCapitalized(this string s)
-        {
-            if (string.IsNullOrEmpty(s))
-            {
-                return false;
-            }
-
-            return char.IsUpper(s[0]);
-        }
-    }
-
     //LINQ
     public class LinqExample
     {
@@ -156,28 +150,6 @@ namespace answers
             List<int> firstThree = numbers.Take(3).ToList();
 
             List<int> lastTwo = numbers.Skip(8).ToList();
-        }
-    }
-
-    //Dynamic - process of resolving types from compile time to runtime.
-    //Custom binding on dynamic objects that implement IDynamicMetaObjectProvider(IDMOP) ... like IronPython or IronRuby.
-    public class DynamicExample
-    {
-        public DynamicExample()
-        {
-            dynamic d = new Duck();
-            d.Quack(); 
-            d.Waddle();
-        }
-
-        public class Duck : DynamicObject
-        {
-            public override bool TryInvokeMember(InvokeMemberBinder binder, object[] args, out object result)
-            {
-                Console.WriteLine(binder.Name + " was called");
-                result = null;
-                return true;
-            }
         }
     }
 
@@ -244,12 +216,6 @@ namespace answers
         {
             await GetAnswerToLife();
             Console.WriteLine("Done");
-        }
-
-        public async Task<int> GetIq()
-        {
-            await Task.Delay(100);
-            return 72;
         }
     }
 
