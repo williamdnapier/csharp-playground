@@ -1,0 +1,6 @@
+C:\g\playground\006-InitConstantFieldAtRuntime\bin\Debug\006-InitConstantFieldAtRuntime.exe.config
+C:\g\playground\006-InitConstantFieldAtRuntime\bin\Debug\006-InitConstantFieldAtRuntime.exe
+C:\g\playground\006-InitConstantFieldAtRuntime\bin\Debug\006-InitConstantFieldAtRuntime.pdb
+C:\g\playground\006-InitConstantFieldAtRuntime\obj\Debug\006-InitConstantFieldAtRuntime.csproj.CoreCompileInputs.cache
+C:\g\playground\006-InitConstantFieldAtRuntime\obj\Debug\006-InitConstantFieldAtRuntime.exe
+C:\g\playground\006-InitConstantFieldAtRuntime\obj\Debug\006-InitConstantFieldAtRuntime.pdb

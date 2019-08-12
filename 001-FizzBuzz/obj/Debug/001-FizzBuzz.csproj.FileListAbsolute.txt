@@ -1,0 +1,13 @@
+C:\g\playground\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\g\playground\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\g\playground\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\g\playground\ConsoleApp2\obj\Debug\001-FizzBuzz.csproj.CoreCompileInputs.cache
+C:\g\playground\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\g\playground\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+C:\g\playground\001-FizzBuzz\bin\Debug\ConsoleApp2.exe.config
+C:\g\playground\001-FizzBuzz\bin\Debug\ConsoleApp2.exe
+C:\g\playground\001-FizzBuzz\bin\Debug\ConsoleApp2.pdb
+C:\g\playground\001-FizzBuzz\obj\Debug\001-FizzBuzz.csprojAssemblyReference.cache
+C:\g\playground\001-FizzBuzz\obj\Debug\001-FizzBuzz.csproj.CoreCompileInputs.cache
+C:\g\playground\001-FizzBuzz\obj\Debug\ConsoleApp2.exe
+C:\g\playground\001-FizzBuzz\obj\Debug\ConsoleApp2.pdb

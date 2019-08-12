@@ -7,7 +7,7 @@
     <ProjectGuid>{73D95F89-2878-49A7-BBCE-31576CFC158C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_006_InitConstantFieldAtRuntime</RootNamespace>
-    <AssemblyName>_006_InitConstantFieldAtRuntime</AssemblyName>
+    <AssemblyName>006-InitConstantFieldAtRuntime</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
