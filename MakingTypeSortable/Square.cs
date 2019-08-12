@@ -203,4 +203,86 @@ namespace MakingTypeSortable
             }
         }
     }
+
+    public class TestSearchClass
+    {
+        public static void TestSearch()
+        {
+            List<Square> listOfSquares = new List<Square>
+            {
+                new Square(1,3),
+                new Square(4,3),
+                new Square(2,1),
+                new Square(6,1)
+            };
+
+            IComparer<Square> heightCompare = new CompareHeight();
+
+            //Test a List<Square>
+            Console.WriteLine("List<Square>");
+            Console.WriteLine("Original list");
+            foreach (Square square in listOfSquares)
+            {
+                Console.WriteLine(square.ToString());
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Sorted list using IComparer<Square>=heightCompare");
+            listOfSquares.Sort(heightCompare);
+            foreach (Square square in listOfSquares)
+            {
+                Console.WriteLine(square.ToString());
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Search using IComparer<Square>=heightCompare");
+            //BinarySearch using IComparer
+            int found = listOfSquares.BinarySearch(new Square(1, 3), heightCompare);
+            Console.WriteLine($"Found (1,3): {found}");
+
+            Console.WriteLine();
+            Console.WriteLine("Sorted list using IComparable<Square>");
+            listOfSquares.Sort();
+            foreach (Square square in listOfSquares)
+            {
+                Console.WriteLine(square.ToString());
+            }
+
+            //BinarySearch using IComparable
+            Console.WriteLine();
+            Console.WriteLine("Search using IComparable<Square>");
+            found = listOfSquares.BinarySearch(new Square(6, 1)); //Use IComparable
+            Console.WriteLine($"Found (6,1): { found }");
+
+            //Test a SortedList<Square>
+            var sortedListOfSquares = new SortedList<int, Square>()
+            {
+                {0, new Square(1,3) },
+                {2, new Square(4,3) },
+                {1, new Square(2,1) },
+                {4, new Square(6,1) }
+            };
+
+            //This one also uses a binary search to find the key of the SortedList.
+            //This is not as obvious as the other ones above.
+            Console.WriteLine();
+            Console.WriteLine("SortedList<Square>");
+            foreach (KeyValuePair<int, Square> kvp in sortedListOfSquares)
+            {
+                Console.WriteLine($"{kvp.Key} : {kvp.Value}");
+            }
+
+            Console.WriteLine();
+            bool foundItem = sortedListOfSquares.ContainsKey(2);
+            Console.WriteLine($"sortedListOfSquares.ContainsKey(2) : {foundItem}");
+
+            //Does not use IComparer or IComparable which offer binary searches.
+            //It uses a linear search along with the Equals method which has not been overloaded.
+
+            Console.WriteLine();
+            Square value = new Square(6, 1);
+            foundItem = sortedListOfSquares.ContainsValue(value);
+            Console.WriteLine("sortedListOfSquares.ContainsValue " + $"(new Square(6,1)): {foundItem}");
+        }
+    }
 }

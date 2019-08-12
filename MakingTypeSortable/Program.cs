@@ -10,7 +10,8 @@ namespace MakingTypeSortable
     {
         static void Main(string[] args)
         {
-            TestSortClass.TestSort();
+            //TestSortClass.TestSort();
+            TestSearchClass.TestSearch();
 
             Console.ReadLine();
         }

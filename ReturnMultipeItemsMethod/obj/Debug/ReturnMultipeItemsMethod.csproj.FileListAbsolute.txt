@@ -1,0 +1,7 @@
+C:\g\playground\ReturnMultipeItemsMethod\bin\Debug\ReturnMultipeItemsMethod.exe.config
+C:\g\playground\ReturnMultipeItemsMethod\bin\Debug\ReturnMultipeItemsMethod.exe
+C:\g\playground\ReturnMultipeItemsMethod\bin\Debug\ReturnMultipeItemsMethod.pdb
+C:\g\playground\ReturnMultipeItemsMethod\obj\Debug\ReturnMultipeItemsMethod.csprojAssemblyReference.cache
+C:\g\playground\ReturnMultipeItemsMethod\obj\Debug\ReturnMultipeItemsMethod.csproj.CoreCompileInputs.cache
+C:\g\playground\ReturnMultipeItemsMethod\obj\Debug\ReturnMultipeItemsMethod.exe
+C:\g\playground\ReturnMultipeItemsMethod\obj\Debug\ReturnMultipeItemsMethod.pdb

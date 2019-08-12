@@ -4,3 +4,4 @@ C:\g\playground\MakingTypeSortable\bin\Debug\MakingTypeSortable.pdb
 C:\g\playground\MakingTypeSortable\obj\Debug\MakingTypeSortable.csproj.CoreCompileInputs.cache
 C:\g\playground\MakingTypeSortable\obj\Debug\MakingTypeSortable.exe
 C:\g\playground\MakingTypeSortable\obj\Debug\MakingTypeSortable.pdb
+C:\g\playground\MakingTypeSortable\obj\Debug\MakingTypeSortable.csprojAssemblyReference.cache
