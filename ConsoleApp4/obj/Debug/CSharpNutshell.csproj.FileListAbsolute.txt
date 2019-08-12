@@ -1,0 +1,7 @@
+C:\g\playground\ConsoleApp4\bin\Debug\ConsoleApp4.exe.config
+C:\g\playground\ConsoleApp4\bin\Debug\ConsoleApp4.exe
+C:\g\playground\ConsoleApp4\bin\Debug\ConsoleApp4.pdb
+C:\g\playground\ConsoleApp4\obj\Debug\CSharpNutshell.csprojAssemblyReference.cache
+C:\g\playground\ConsoleApp4\obj\Debug\CSharpNutshell.csproj.CoreCompileInputs.cache
+C:\g\playground\ConsoleApp4\obj\Debug\ConsoleApp4.exe
+C:\g\playground\ConsoleApp4\obj\Debug\ConsoleApp4.pdb
