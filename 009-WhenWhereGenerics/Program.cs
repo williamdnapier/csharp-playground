@@ -10,6 +10,33 @@ namespace _009_WhenWhereGenerics
     {
         static void Main(string[] args)
         {
+
+            //Regular class
+            FixedSizeCollection A = new FixedSizeCollection(5);
+            Console.WriteLine(5);
+
+            FixedSizeCollection B = new FixedSizeCollection(5);
+            Console.WriteLine(B);
+
+            FixedSizeCollection C = new FixedSizeCollection(5);
+            Console.WriteLine(C);
+
+
+            //Generic class
+            FixedSizeCollection<bool> gA = new FixedSizeCollection<bool>(5);
+            Console.WriteLine(gA);
+
+            FixedSizeCollection<int> gB = new FixedSizeCollection<int>(5);
+            Console.WriteLine(gB);
+
+            FixedSizeCollection<string> gC = new FixedSizeCollection<string>(5);
+            Console.WriteLine(gC);
+
+            FixedSizeCollection<string> gD = new FixedSizeCollection<string>(5);
+            Console.WriteLine(gD);
+
+
+            Console.ReadLine();
         }
     }
 
@@ -88,7 +115,7 @@ namespace _009_WhenWhereGenerics
         {
             if (index >= this.Items.Length && index >= 0)
             {
-                throw new ArgumentOutOfRangeException(index));
+                throw new ArgumentOutOfRangeException(Convert.ToString(index));
             }
             return this.Items[index];
         }
