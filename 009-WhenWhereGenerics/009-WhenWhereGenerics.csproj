@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5C042C71-1006-4237-BFF3-5D04234E2EB0}</ProjectGuid>
+    <ProjectGuid>{EFB36332-6A3B-4863-B2F1-31C7D970300D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_008_EnsureObjDisposal</RootNamespace>
-    <AssemblyName>008-EnsureObjDisposal</AssemblyName>
+    <RootNamespace>_009_WhenWhereGenerics</RootNamespace>
+    <AssemblyName>009-WhenWhereGenerics</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
