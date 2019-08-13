@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008-EnsureObjDisposal", "..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009-WhenWhereGenerics", "..\009-WhenWhereGenerics\009-WhenWhereGenerics.csproj", "{EFB36332-6A3B-4863-B2F1-31C7D970300D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010-ReverseSortedList", "..\010-ReverseSortedList\010-ReverseSortedList.csproj", "{F0B02043-6B01-4F4F-BEEF-01EDE25473AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{EFB36332-6A3B-4863-B2F1-31C7D970300D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFB36332-6A3B-4863-B2F1-31C7D970300D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFB36332-6A3B-4863-B2F1-31C7D970300D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0B02043-6B01-4F4F-BEEF-01EDE25473AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B02043-6B01-4F4F-BEEF-01EDE25473AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B02043-6B01-4F4F-BEEF-01EDE25473AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B02043-6B01-4F4F-BEEF-01EDE25473AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
