@@ -166,12 +166,178 @@ namespace _012_LambdaExpressions
             //Single and ElementAt.
 
             Console.WriteLine("Writing out other operator examples.");
+            Console.WriteLine("Element operators in Linq are First, Last, Single and ElementAt.");
             int[] numbers = { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };
+            foreach (int x in numbers)
+            {
+                Console.WriteLine(x);
+            }
             int firstNumber = numbers.First();
-            Console.WriteLine(firstNumber);
+            Console.WriteLine("firstNumber in the sequence " + firstNumber);
+            int lastNumber = numbers.Last();
+            Console.WriteLine("lastNumber in the sequence " + lastNumber);
+            int secondNumber = numbers.ElementAt(1);
+            Console.WriteLine("secondNumber in the sequence " + secondNumber);
 
             Console.WriteLine(Environment.NewLine);
 
+            Console.WriteLine("Aggregation operators in Linq are Count and Min.");
+            int count = numbers.Count();
+            Console.WriteLine("count of numbers in the sequence " + count);
+            int min = numbers.Min();
+            Console.WriteLine("min of numbers in the sequence " + min);
+
+            Console.WriteLine(Environment.NewLine);
+
+            Console.WriteLine("Quantifier operators Contains, Any return a bool value.");
+            bool hasTheNumberNine = numbers.Contains(9);
+            Console.WriteLine("hasTheNumberNine is " + hasTheNumberNine);
+            bool hasMoreThanZeroElements = numbers.Any();
+            Console.WriteLine("hasMoreThanZeroElements is " + hasMoreThanZeroElements);
+            bool hasAnOddElement = numbers.Any(x => x % 2 == 1);
+            Console.WriteLine("hasAnOddElement is " + hasAnOddElement);
+
+            Console.WriteLine(Environment.NewLine);
+
+            //Because these operators don't return a collection, you can't further call operations
+            //on their results. In other words, they must be the last operator in the chain.
+
+            //Some operators accept 2 input sequences. Examples are Concat - which appends one
+            //sequence to another sequence. Also Union does the same but with the duplicates removed.
+            //The joining operators fall into this category.
+
+            //Deferred Execution
+            //An important feature of most query operators is that they execute not when constructed
+            //but when enumerated.
+
+            //An example of deferred execution.
+            var numbers2 = new List<int>();
+            numbers2.Add(1);
+
+            //Build query
+            IEnumerable<int> numbers2Query = numbers2.Select(x => x * 10);
+            numbers2.Add(2); //sneak in an extra element
+
+            Console.WriteLine("Deferred execution example.");
+            foreach (int x in numbers2Query)
+            {
+                Console.WriteLine("numbers2Query number is " + x);
+            }
+
+            Console.WriteLine(Environment.NewLine);
+
+            //Reevaluation
+            //Deferred execution also has a consequence - deferred execution is reevaluated when
+            //you reenumerate.
+
+            //There are 2 reasons why this is sometimes not ideal.
+            //1. Sometimes you want to freeze or cache the results at a certain point in time.
+            //2. Some queries are CPU intensive and you don't want to repeat them.
+
+            //You can avoid reevaluation by calling a conversion operator, such as
+            //ToArray or ToList.
+            //ToArray copies output of the query from the IEnumerable sequence to an array.
+            //ToList copies output to a generic List<>.
+
+            //Outer Variables
+            //If the query lambda expresssion uses local variables, these variables are
+            //captured and are subject to outer variable semantics. That means what matters
+            //most is what is the variable's value when the query is executed and not at the
+            //time when it was captured.
+
+            int[] numbers3 = { 1, 2 };
+            int factor = 10; //We capture this variable below.
+            var queryOuterVariable = numbers3.Select(x => x * factor);
+
+            //Now, change the factor variable's value.
+            factor = 20;
+
+            Console.WriteLine("Writing outer variables example.");
+            foreach (int x in queryOuterVariable)
+            {
+                Console.WriteLine(x); //The output for this is 20, 40.
+                //Instead of outputting 10, 20 as you might expect.
+                //This is because the query is executed during the enumeration.
+                //The variable's value is 20 when this foreach loop is executed.
+            }
+
+            Console.WriteLine(Environment.NewLine);
+
+            //Chaining Decorators
+            //When you chain query operators, you create a layering of decorators.
+
+            IEnumerable<int> queryChainingDecorators = new int[] { 5, 12, 3 }
+            .Where(x => x < 10)
+            .OrderBy(x => x)
+            .Select(x => x * 10);
+
+            Console.WriteLine("Writing out chaining decorators example.");
+            foreach (int x in queryChainingDecorators)
+            {
+                Console.WriteLine(x);
+            }
+            Console.WriteLine(Environment.NewLine);
+
+            //Linq follows a demand driven pull model rather a supply drive push model.
+
+            //Subqueries
+            //A subquery is a query contained within another query's lambda expression.
+            //Here is an example of a subquery sorting the members of Pink Floyd.
+
+            string[] musicians = { "Nick Mason", "David Gilmour", "Rick Wright", "Roger Waters" };
+
+            IEnumerable<string> querySubquery = musicians
+                .OrderBy(x => x.Split().Last());
+
+            Console.WriteLine("Writing out first subquery example.");
+            foreach (string x in querySubquery)
+            {
+                Console.WriteLine(x);
+            }
+
+            //x.Split() converts each string to a collection of words
+            //upon which we then call the Last operator.
+            //Last() is the subquery.
+            Console.WriteLine(Environment.NewLine);
+
+
+            //More complicated subqueries ...
+
+            string[] names7 = { "Bill", "Denise", "Richard", "Peggy", "Gracie", "IZ", "Randy", "Cheryl" };
+            IEnumerable<string> outerQuery = names7
+                .Where(x => x.Length ==
+                    names7.OrderBy(x2 => x2.Length)
+                        .Select(x2 => x2.Length).First()
+                        );
+
+            Console.WriteLine("More complicated subquery example.");
+            foreach (string x in outerQuery)
+            {
+                Console.WriteLine(x);
+            }
+            Console.WriteLine(Environment.NewLine);
+
+            //The above query is a great candidate for a database query. A query that would make 1 round
+            //trip to the database and get what it needed and comes back.
+            //However, if you have local collections, it is better to avoid the inefficiency of excuting
+            //the subquery with each iteration through the loop.
+
+            //So, it is better to write local collection subqueries like this ...
+
+            int shortest = names7.Min(x => x.Length);
+
+            IEnumerable<string> query7 = names7
+                .Where(x => x.Length == shortest);
+
+            Console.WriteLine("Writing out subquery executed after initial query on local collection.");
+            foreach (string x in query7)
+            {
+                Console.WriteLine(x);
+            }
+            Console.WriteLine(Environment.NewLine);
+
+
+            Console.WriteLine(Environment.NewLine);
 
             //Keep the console open.
             Console.ReadLine();
