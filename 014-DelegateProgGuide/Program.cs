@@ -50,4 +50,16 @@ namespace _014_DelegateProgGuide
 
     //Any method from any accessible class or struct that matches this
     //delegate type can be assigned to the delegate.
+
+    //Delegates Overview.
+    //Delegates are fully object-oriented and encapsulate both an object and a method.
+    //Delegates allow methods to be passed as parameters.
+    //Delegates can be used to define callback methods.
+    //Delegates can be chained together and can be called on a single event.
+    //Methods do NOT have to match the delegate type exactly.
+    //C# v2 introduced anonymous methods which allow code blocks to be passed
+    //as parameters in place of separately defined method. C# v3 introduced lambda 
+    //expressions as a way of writing inline code blocks for delegates. Both anonymous
+    //methods and lambda expressions are compiled to delegate types. Together these
+    //features are known as anonymous functions.
 }

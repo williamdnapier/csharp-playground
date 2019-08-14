@@ -1,0 +1,7 @@
+C:\g\playground\015-UsingDelegates\bin\Debug\015-UsingDelegates.exe.config
+C:\g\playground\015-UsingDelegates\bin\Debug\015-UsingDelegates.exe
+C:\g\playground\015-UsingDelegates\bin\Debug\015-UsingDelegates.pdb
+C:\g\playground\015-UsingDelegates\obj\Debug\015-UsingDelegates.csprojAssemblyReference.cache
+C:\g\playground\015-UsingDelegates\obj\Debug\015-UsingDelegates.csproj.CoreCompileInputs.cache
+C:\g\playground\015-UsingDelegates\obj\Debug\015-UsingDelegates.exe
+C:\g\playground\015-UsingDelegates\obj\Debug\015-UsingDelegates.pdb
