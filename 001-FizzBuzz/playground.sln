@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "016-Events", "..\016-Events
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "017-Generics", "..\017-Generics\017-Generics.csproj", "{D479E5E4-589C-41D0-9955-5DE4617CC47E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "018-GenericTypes", "..\018-GenericTypes\018-GenericTypes.csproj", "{083F2A33-8E0A-497A-8796-815641E50351}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{D479E5E4-589C-41D0-9955-5DE4617CC47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D479E5E4-589C-41D0-9955-5DE4617CC47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D479E5E4-589C-41D0-9955-5DE4617CC47E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{083F2A33-8E0A-497A-8796-815641E50351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{083F2A33-8E0A-497A-8796-815641E50351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{083F2A33-8E0A-497A-8796-815641E50351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{083F2A33-8E0A-497A-8796-815641E50351}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
