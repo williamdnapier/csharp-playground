@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace _012_LambdaExpressions
@@ -11,6 +12,10 @@ namespace _012_LambdaExpressions
         static void Main(string[] args)
         {
             Write();
+            WriteProgressiveApproach();
+
+            //Keep the console open.
+            Console.ReadLine();
         }
 
         //Basic units of data in LINQ are sequences and elements.
@@ -338,10 +343,72 @@ namespace _012_LambdaExpressions
 
 
             Console.WriteLine(Environment.NewLine);
-
-            //Keep the console open.
-            Console.ReadLine();
         }
 
+        static void WriteProgressiveApproach()
+        {
+            //In order to restore a bit of sanity to my variables in this
+            //project, I'm splitting these other concepts out as their
+            //own methods.
+
+            Console.WriteLine(Environment.NewLine);
+
+            string[] names = { "Bill", "Denise", "Gracie", "Isaac", "Richard", "Peggy", "MaryBeth" };
+
+
+            //This is how you can progressively write a query using the 
+            //query comprehension syntax.
+
+            IEnumerable<string> query =
+                from n in names
+                select Regex.Replace(n, "[aeiou]", "")
+                into noVowel
+                where noVowel.Length > 2
+                orderby noVowel
+                select noVowel;
+
+            Console.WriteLine("Writing out the Progressive Approach example.");
+
+            foreach (string n in query)
+            {
+                Console.WriteLine(n);
+            }
+
+            Console.WriteLine(Environment.NewLine);
+
+            //Note, because this example uses the 'into' keyword that the query variable
+            //is out of scope after the 'into' keyword.
+
+            //This example will not compile because n1 is out of scope.
+            //var query = 
+            //from n1 in names
+            //select n1.ToUpper()
+            //into n2
+            //where n1.Contains("x") //Illegal n1 is out of scope.
+            //select n2;
+
+            //Wrapping Queries
+            //A query built progressively can be formulated into a single statement by wrapping
+            //one query around another.
+
+            IEnumerable<string> queryWrapped =
+                from n1 in
+                    (
+                        from n2 in names
+                        select Regex.Replace(n2, "[aeiou]", "")
+                    )
+                where n1.Length > 2
+                orderby n1
+                select n1;
+
+            //Same query written in lambda syntax instead of comprehension query syntax.
+            IEnumerable<string> queryWrappedLambda = names
+                .Select(n => Regex.Replace(n, "[aeiou]", ""))
+                .Where(n => n.Length > 2)
+                .OrderBy(n => n);
+
+
+            Console.WriteLine(Environment.NewLine);
+        }
     }
 }

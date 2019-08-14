@@ -1,0 +1,7 @@
+C:\g\playground\014-DelegateProgGuide\bin\Debug\014-DelegateProgGuide.exe.config
+C:\g\playground\014-DelegateProgGuide\bin\Debug\014-DelegateProgGuide.exe
+C:\g\playground\014-DelegateProgGuide\bin\Debug\014-DelegateProgGuide.pdb
+C:\g\playground\014-DelegateProgGuide\obj\Debug\014-DelegateProgGuide.csprojAssemblyReference.cache
+C:\g\playground\014-DelegateProgGuide\obj\Debug\014-DelegateProgGuide.csproj.CoreCompileInputs.cache
+C:\g\playground\014-DelegateProgGuide\obj\Debug\014-DelegateProgGuide.exe
+C:\g\playground\014-DelegateProgGuide\obj\Debug\014-DelegateProgGuide.pdb
