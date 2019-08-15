@@ -1,0 +1,7 @@
+C:\g\playground\020-GenericClass\bin\Debug\020-GenericClass.exe.config
+C:\g\playground\020-GenericClass\bin\Debug\020-GenericClass.exe
+C:\g\playground\020-GenericClass\bin\Debug\020-GenericClass.pdb
+C:\g\playground\020-GenericClass\obj\Debug\020-GenericClass.csprojAssemblyReference.cache
+C:\g\playground\020-GenericClass\obj\Debug\020-GenericClass.csproj.CoreCompileInputs.cache
+C:\g\playground\020-GenericClass\obj\Debug\020-GenericClass.exe
+C:\g\playground\020-GenericClass\obj\Debug\020-GenericClass.pdb

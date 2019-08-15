@@ -12,4 +12,7 @@ namespace _019_GenericMethods
         {
         }
     }
+
+    //Generic Methods
+    //Here is an example of a generic method declaration.
 }

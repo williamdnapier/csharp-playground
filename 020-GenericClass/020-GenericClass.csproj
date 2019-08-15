@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5BADFD1E-088A-4315-8344-A25DB8E6D6E1}</ProjectGuid>
+    <ProjectGuid>{BCC8D5C7-E46C-44BE-922D-5A70A115AAA5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_019_GenericMethods</RootNamespace>
-    <AssemblyName>019-GenericMethods</AssemblyName>
+    <RootNamespace>_020_GenericClass</RootNamespace>
+    <AssemblyName>020-GenericClass</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
