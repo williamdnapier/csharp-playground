@@ -1,6 +1,12 @@
-C:\g\playground\019-GenericMethods\bin\Debug\019-GenericMethods.exe.config
-C:\g\playground\019-GenericMethods\bin\Debug\019-GenericMethods.exe
-C:\g\playground\019-GenericMethods\bin\Debug\019-GenericMethods.pdb
-C:\g\playground\019-GenericMethods\obj\Debug\019-GenericMethods.csproj.CoreCompileInputs.cache
-C:\g\playground\019-GenericMethods\obj\Debug\019-GenericMethods.exe
-C:\g\playground\019-GenericMethods\obj\Debug\019-GenericMethods.pdb
+C:/g/playground/019-GenericMethods/bin/Debug/019-GenericMethods.exe.config
+C:/g/playground/019-GenericMethods/bin/Debug/019-GenericMethods.exe
+C:/g/playground/019-GenericMethods/bin/Debug/019-GenericMethods.pdb
+C:/g/playground/019-GenericMethods/obj/Debug/019-GenericMethods.csproj.CoreCompileInputs.cache
+C:/g/playground/019-GenericMethods/obj/Debug/019-GenericMethods.exe
+C:/g/playground/019-GenericMethods/obj/Debug/019-GenericMethods.pdb
+/Volumes/Mac Backup/iDrive/Code/playground/019-GenericMethods/bin/Debug/019-GenericMethods.exe.config
+/Volumes/Mac Backup/iDrive/Code/playground/019-GenericMethods/bin/Debug/019-GenericMethods.exe
+/Volumes/Mac Backup/iDrive/Code/playground/019-GenericMethods/bin/Debug/019-GenericMethods.pdb
+/Volumes/Mac Backup/iDrive/Code/playground/019-GenericMethods/obj/Debug/019-GenericMethods.csproj.CoreCompileInputs.cache
+/Volumes/Mac Backup/iDrive/Code/playground/019-GenericMethods/obj/Debug/019-GenericMethods.exe
+/Volumes/Mac Backup/iDrive/Code/playground/019-GenericMethods/obj/Debug/019-GenericMethods.pdb

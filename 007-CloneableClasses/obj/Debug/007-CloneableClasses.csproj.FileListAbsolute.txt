@@ -1,6 +1,12 @@
-C:\g\playground\007-CloneableClasses\bin\Debug\007-CloneableClasses.exe.config
-C:\g\playground\007-CloneableClasses\bin\Debug\007-CloneableClasses.exe
-C:\g\playground\007-CloneableClasses\bin\Debug\007-CloneableClasses.pdb
-C:\g\playground\007-CloneableClasses\obj\Debug\007-CloneableClasses.csproj.CoreCompileInputs.cache
-C:\g\playground\007-CloneableClasses\obj\Debug\007-CloneableClasses.exe
-C:\g\playground\007-CloneableClasses\obj\Debug\007-CloneableClasses.pdb
+C:/g/playground/007-CloneableClasses/bin/Debug/007-CloneableClasses.exe.config
+C:/g/playground/007-CloneableClasses/bin/Debug/007-CloneableClasses.exe
+C:/g/playground/007-CloneableClasses/bin/Debug/007-CloneableClasses.pdb
+C:/g/playground/007-CloneableClasses/obj/Debug/007-CloneableClasses.csproj.CoreCompileInputs.cache
+C:/g/playground/007-CloneableClasses/obj/Debug/007-CloneableClasses.exe
+C:/g/playground/007-CloneableClasses/obj/Debug/007-CloneableClasses.pdb
+/Volumes/Mac Backup/iDrive/Code/playground/007-CloneableClasses/bin/Debug/007-CloneableClasses.exe.config
+/Volumes/Mac Backup/iDrive/Code/playground/007-CloneableClasses/bin/Debug/007-CloneableClasses.exe
+/Volumes/Mac Backup/iDrive/Code/playground/007-CloneableClasses/bin/Debug/007-CloneableClasses.pdb
+/Volumes/Mac Backup/iDrive/Code/playground/007-CloneableClasses/obj/Debug/007-CloneableClasses.csproj.CoreCompileInputs.cache
+/Volumes/Mac Backup/iDrive/Code/playground/007-CloneableClasses/obj/Debug/007-CloneableClasses.exe
+/Volumes/Mac Backup/iDrive/Code/playground/007-CloneableClasses/obj/Debug/007-CloneableClasses.pdb

@@ -1,7 +1,14 @@
-C:\g\playground\answers\bin\Debug\answers.exe.config
-C:\g\playground\answers\bin\Debug\answers.exe
-C:\g\playground\answers\bin\Debug\answers.pdb
-C:\g\playground\answers\obj\Debug\002-CSharpConcepts.csprojAssemblyReference.cache
-C:\g\playground\answers\obj\Debug\002-CSharpConcepts.csproj.CoreCompileInputs.cache
-C:\g\playground\answers\obj\Debug\answers.exe
-C:\g\playground\answers\obj\Debug\answers.pdb
+C:/g/playground/answers/bin/Debug/answers.exe.config
+C:/g/playground/answers/bin/Debug/answers.exe
+C:/g/playground/answers/bin/Debug/answers.pdb
+C:/g/playground/answers/obj/Debug/002-CSharpConcepts.csprojAssemblyReference.cache
+C:/g/playground/answers/obj/Debug/002-CSharpConcepts.csproj.CoreCompileInputs.cache
+C:/g/playground/answers/obj/Debug/answers.exe
+C:/g/playground/answers/obj/Debug/answers.pdb
+/Volumes/Mac Backup/iDrive/Code/playground/002-CSharpConcepts/bin/Debug/answers.exe.config
+/Volumes/Mac Backup/iDrive/Code/playground/002-CSharpConcepts/bin/Debug/answers.exe
+/Volumes/Mac Backup/iDrive/Code/playground/002-CSharpConcepts/bin/Debug/answers.pdb
+/Volumes/Mac Backup/iDrive/Code/playground/002-CSharpConcepts/obj/Debug/002-CSharpConcepts.csprojAssemblyReference.cache
+/Volumes/Mac Backup/iDrive/Code/playground/002-CSharpConcepts/obj/Debug/002-CSharpConcepts.csproj.CoreCompileInputs.cache
+/Volumes/Mac Backup/iDrive/Code/playground/002-CSharpConcepts/obj/Debug/answers.exe
+/Volumes/Mac Backup/iDrive/Code/playground/002-CSharpConcepts/obj/Debug/answers.pdb

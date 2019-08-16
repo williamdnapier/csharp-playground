@@ -1,0 +1,7 @@
+/Volumes/Mac Backup/iDrive/Code/playground/013-Delegates/bin/Debug/013-Delegates.exe.config
+/Volumes/Mac Backup/iDrive/Code/playground/013-Delegates/bin/Debug/013-Delegates.exe
+/Volumes/Mac Backup/iDrive/Code/playground/013-Delegates/bin/Debug/013-Delegates.pdb
+/Volumes/Mac Backup/iDrive/Code/playground/013-Delegates/obj/Debug/013-Delegates.csprojAssemblyReference.cache
+/Volumes/Mac Backup/iDrive/Code/playground/013-Delegates/obj/Debug/013-Delegates.csproj.CoreCompileInputs.cache
+/Volumes/Mac Backup/iDrive/Code/playground/013-Delegates/obj/Debug/013-Delegates.exe
+/Volumes/Mac Backup/iDrive/Code/playground/013-Delegates/obj/Debug/013-Delegates.pdb

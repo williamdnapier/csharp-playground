@@ -1,7 +1,14 @@
-C:\g\playground\010-ReverseSortedList\bin\Debug\010-ReverseSortedList.exe.config
-C:\g\playground\010-ReverseSortedList\bin\Debug\010-ReverseSortedList.exe
-C:\g\playground\010-ReverseSortedList\bin\Debug\010-ReverseSortedList.pdb
-C:\g\playground\010-ReverseSortedList\obj\Debug\010-ReverseSortedList.csprojAssemblyReference.cache
-C:\g\playground\010-ReverseSortedList\obj\Debug\010-ReverseSortedList.csproj.CoreCompileInputs.cache
-C:\g\playground\010-ReverseSortedList\obj\Debug\010-ReverseSortedList.exe
-C:\g\playground\010-ReverseSortedList\obj\Debug\010-ReverseSortedList.pdb
+C:/g/playground/010-ReverseSortedList/bin/Debug/010-ReverseSortedList.exe.config
+C:/g/playground/010-ReverseSortedList/bin/Debug/010-ReverseSortedList.exe
+C:/g/playground/010-ReverseSortedList/bin/Debug/010-ReverseSortedList.pdb
+C:/g/playground/010-ReverseSortedList/obj/Debug/010-ReverseSortedList.csprojAssemblyReference.cache
+C:/g/playground/010-ReverseSortedList/obj/Debug/010-ReverseSortedList.csproj.CoreCompileInputs.cache
+C:/g/playground/010-ReverseSortedList/obj/Debug/010-ReverseSortedList.exe
+C:/g/playground/010-ReverseSortedList/obj/Debug/010-ReverseSortedList.pdb
+/Volumes/Mac Backup/iDrive/Code/playground/010-ReverseSortedList/bin/Debug/010-ReverseSortedList.exe.config
+/Volumes/Mac Backup/iDrive/Code/playground/010-ReverseSortedList/bin/Debug/010-ReverseSortedList.exe
+/Volumes/Mac Backup/iDrive/Code/playground/010-ReverseSortedList/bin/Debug/010-ReverseSortedList.pdb
+/Volumes/Mac Backup/iDrive/Code/playground/010-ReverseSortedList/obj/Debug/010-ReverseSortedList.csprojAssemblyReference.cache
+/Volumes/Mac Backup/iDrive/Code/playground/010-ReverseSortedList/obj/Debug/010-ReverseSortedList.csproj.CoreCompileInputs.cache
+/Volumes/Mac Backup/iDrive/Code/playground/010-ReverseSortedList/obj/Debug/010-ReverseSortedList.exe
+/Volumes/Mac Backup/iDrive/Code/playground/010-ReverseSortedList/obj/Debug/010-ReverseSortedList.pdb

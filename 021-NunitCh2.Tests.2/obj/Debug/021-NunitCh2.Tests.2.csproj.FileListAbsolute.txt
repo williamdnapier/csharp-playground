@@ -1,0 +1,12 @@
+/Volumes/Mac Backup/iDrive/Code/playground/021-NunitCh2.Tests.2/bin/Debug/021-NunitCh2.Tests.2.dll
+/Volumes/Mac Backup/iDrive/Code/playground/021-NunitCh2.Tests.2/bin/Debug/021-NunitCh2.Tests.2.pdb
+/Volumes/Mac Backup/iDrive/Code/playground/021-NunitCh2.Tests.2/bin/Debug/021-NunitCh2.exe
+/Volumes/Mac Backup/iDrive/Code/playground/021-NunitCh2.Tests.2/bin/Debug/nunit.framework.dll
+/Volumes/Mac Backup/iDrive/Code/playground/021-NunitCh2.Tests.2/bin/Debug/021-NunitCh2.pdb
+/Volumes/Mac Backup/iDrive/Code/playground/021-NunitCh2.Tests.2/bin/Debug/nunit.framework.pdb
+/Volumes/Mac Backup/iDrive/Code/playground/021-NunitCh2.Tests.2/bin/Debug/nunit.framework.xml
+/Volumes/Mac Backup/iDrive/Code/playground/021-NunitCh2.Tests.2/obj/Debug/021-NunitCh2.Tests.2.csprojAssemblyReference.cache
+/Volumes/Mac Backup/iDrive/Code/playground/021-NunitCh2.Tests.2/obj/Debug/021-NunitCh2.Tests.2.csproj.CoreCompileInputs.cache
+/Volumes/Mac Backup/iDrive/Code/playground/021-NunitCh2.Tests.2/obj/Debug/021-NunitCh2.Tests.2.csproj.CopyComplete
+/Volumes/Mac Backup/iDrive/Code/playground/021-NunitCh2.Tests.2/obj/Debug/021-NunitCh2.Tests.2.dll
+/Volumes/Mac Backup/iDrive/Code/playground/021-NunitCh2.Tests.2/obj/Debug/021-NunitCh2.Tests.2.pdb

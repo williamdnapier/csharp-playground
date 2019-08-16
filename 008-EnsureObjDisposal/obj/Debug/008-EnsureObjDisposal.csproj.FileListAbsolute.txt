@@ -1,0 +1,7 @@
+/Volumes/Mac Backup/iDrive/Code/playground/008-EnsureObjDisposal/bin/Debug/008-EnsureObjDisposal.exe.config
+/Volumes/Mac Backup/iDrive/Code/playground/008-EnsureObjDisposal/bin/Debug/008-EnsureObjDisposal.exe
+/Volumes/Mac Backup/iDrive/Code/playground/008-EnsureObjDisposal/bin/Debug/008-EnsureObjDisposal.pdb
+/Volumes/Mac Backup/iDrive/Code/playground/008-EnsureObjDisposal/obj/Debug/008-EnsureObjDisposal.csprojAssemblyReference.cache
+/Volumes/Mac Backup/iDrive/Code/playground/008-EnsureObjDisposal/obj/Debug/008-EnsureObjDisposal.csproj.CoreCompileInputs.cache
+/Volumes/Mac Backup/iDrive/Code/playground/008-EnsureObjDisposal/obj/Debug/008-EnsureObjDisposal.exe
+/Volumes/Mac Backup/iDrive/Code/playground/008-EnsureObjDisposal/obj/Debug/008-EnsureObjDisposal.pdb

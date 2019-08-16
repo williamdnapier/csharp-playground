@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "019-GenericMethods", "..\01
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "020-GenericClass", "..\020-GenericClass\020-GenericClass.csproj", "{BCC8D5C7-E46C-44BE-922D-5A70A115AAA5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "021-NunitCh2", "..\021-NunitCh2\021-NunitCh2.csproj", "{F5CF1630-022A-4889-ADA1-C6CE39C690B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "021-NunitCh2.Tests.2", "..\021-NunitCh2.Tests.2\021-NunitCh2.Tests.2.csproj", "{24CDF770-1CD4-4AB2-AA84-DA825BEF9FEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +133,14 @@ Global
 		{BCC8D5C7-E46C-44BE-922D-5A70A115AAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCC8D5C7-E46C-44BE-922D-5A70A115AAA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCC8D5C7-E46C-44BE-922D-5A70A115AAA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5CF1630-022A-4889-ADA1-C6CE39C690B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5CF1630-022A-4889-ADA1-C6CE39C690B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5CF1630-022A-4889-ADA1-C6CE39C690B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CF1630-022A-4889-ADA1-C6CE39C690B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24CDF770-1CD4-4AB2-AA84-DA825BEF9FEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24CDF770-1CD4-4AB2-AA84-DA825BEF9FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24CDF770-1CD4-4AB2-AA84-DA825BEF9FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24CDF770-1CD4-4AB2-AA84-DA825BEF9FEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
