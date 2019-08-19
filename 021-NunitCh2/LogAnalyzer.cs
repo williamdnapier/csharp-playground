@@ -2,9 +2,9 @@
 
 public class LogAnalyzer
 {
-    public bool isValidLogFileName(string fileName)
+    public bool IsValidLogFileName(string fileName)
     {
-        if(!fileName.EndsWith(".slf", StringComparison.Ordinal))
+        if(!fileName.EndsWith(".slf", StringComparison.InvariantCultureIgnoreCase))
         {
             return false;
         }
