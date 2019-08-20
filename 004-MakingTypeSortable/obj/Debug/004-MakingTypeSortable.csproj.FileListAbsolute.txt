@@ -5,3 +5,10 @@
 /Volumes/Mac Backup/iDrive/Code/playground/004-MakingTypeSortable/obj/Debug/004-MakingTypeSortable.csproj.CoreCompileInputs.cache
 /Volumes/Mac Backup/iDrive/Code/playground/004-MakingTypeSortable/obj/Debug/MakingTypeSortable.exe
 /Volumes/Mac Backup/iDrive/Code/playground/004-MakingTypeSortable/obj/Debug/MakingTypeSortable.pdb
+C:\g\playground\004-MakingTypeSortable\bin\Debug\MakingTypeSortable.exe.config
+C:\g\playground\004-MakingTypeSortable\bin\Debug\MakingTypeSortable.exe
+C:\g\playground\004-MakingTypeSortable\bin\Debug\MakingTypeSortable.pdb
+C:\g\playground\004-MakingTypeSortable\obj\Debug\004-MakingTypeSortable.csprojAssemblyReference.cache
+C:\g\playground\004-MakingTypeSortable\obj\Debug\004-MakingTypeSortable.csproj.CoreCompileInputs.cache
+C:\g\playground\004-MakingTypeSortable\obj\Debug\MakingTypeSortable.exe
+C:\g\playground\004-MakingTypeSortable\obj\Debug\MakingTypeSortable.pdb

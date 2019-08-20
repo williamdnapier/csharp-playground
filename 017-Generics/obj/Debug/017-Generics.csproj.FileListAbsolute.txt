@@ -1,10 +1,3 @@
-C:/g/playground/017-Generics/bin/Debug/017-Generics.exe.config
-C:/g/playground/017-Generics/bin/Debug/017-Generics.exe
-C:/g/playground/017-Generics/bin/Debug/017-Generics.pdb
-C:/g/playground/017-Generics/obj/Debug/017-Generics.csprojAssemblyReference.cache
-C:/g/playground/017-Generics/obj/Debug/017-Generics.csproj.CoreCompileInputs.cache
-C:/g/playground/017-Generics/obj/Debug/017-Generics.exe
-C:/g/playground/017-Generics/obj/Debug/017-Generics.pdb
 /Volumes/Mac Backup/iDrive/Code/playground/017-Generics/bin/Debug/017-Generics.exe.config
 /Volumes/Mac Backup/iDrive/Code/playground/017-Generics/bin/Debug/017-Generics.exe
 /Volumes/Mac Backup/iDrive/Code/playground/017-Generics/bin/Debug/017-Generics.pdb
@@ -12,3 +5,9 @@ C:/g/playground/017-Generics/obj/Debug/017-Generics.pdb
 /Volumes/Mac Backup/iDrive/Code/playground/017-Generics/obj/Debug/017-Generics.csproj.CoreCompileInputs.cache
 /Volumes/Mac Backup/iDrive/Code/playground/017-Generics/obj/Debug/017-Generics.exe
 /Volumes/Mac Backup/iDrive/Code/playground/017-Generics/obj/Debug/017-Generics.pdb
+C:\g\playground\017-Generics\bin\Debug\017-Generics.exe.config
+C:\g\playground\017-Generics\bin\Debug\017-Generics.exe
+C:\g\playground\017-Generics\bin\Debug\017-Generics.pdb
+C:\g\playground\017-Generics\obj\Debug\017-Generics.csproj.CoreCompileInputs.cache
+C:\g\playground\017-Generics\obj\Debug\017-Generics.exe
+C:\g\playground\017-Generics\obj\Debug\017-Generics.pdb

@@ -5,3 +5,10 @@
 /Volumes/Mac Backup/iDrive/Code/playground/003-CSharpNutshell/obj/Debug/003-CSharpNutshell.csproj.CoreCompileInputs.cache
 /Volumes/Mac Backup/iDrive/Code/playground/003-CSharpNutshell/obj/Debug/ConsoleApp4.exe
 /Volumes/Mac Backup/iDrive/Code/playground/003-CSharpNutshell/obj/Debug/ConsoleApp4.pdb
+C:\g\playground\003-CSharpNutshell\bin\Debug\ConsoleApp4.exe.config
+C:\g\playground\003-CSharpNutshell\bin\Debug\ConsoleApp4.exe
+C:\g\playground\003-CSharpNutshell\bin\Debug\ConsoleApp4.pdb
+C:\g\playground\003-CSharpNutshell\obj\Debug\003-CSharpNutshell.csprojAssemblyReference.cache
+C:\g\playground\003-CSharpNutshell\obj\Debug\003-CSharpNutshell.csproj.CoreCompileInputs.cache
+C:\g\playground\003-CSharpNutshell\obj\Debug\ConsoleApp4.exe
+C:\g\playground\003-CSharpNutshell\obj\Debug\ConsoleApp4.pdb

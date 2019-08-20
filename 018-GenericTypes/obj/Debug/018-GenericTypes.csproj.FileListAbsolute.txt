@@ -1,12 +1,12 @@
-C:/g/playground/018-GenericTypes/bin/Debug/018-GenericTypes.exe.config
-C:/g/playground/018-GenericTypes/bin/Debug/018-GenericTypes.exe
-C:/g/playground/018-GenericTypes/bin/Debug/018-GenericTypes.pdb
-C:/g/playground/018-GenericTypes/obj/Debug/018-GenericTypes.csproj.CoreCompileInputs.cache
-C:/g/playground/018-GenericTypes/obj/Debug/018-GenericTypes.exe
-C:/g/playground/018-GenericTypes/obj/Debug/018-GenericTypes.pdb
 /Volumes/Mac Backup/iDrive/Code/playground/018-GenericTypes/bin/Debug/018-GenericTypes.exe.config
 /Volumes/Mac Backup/iDrive/Code/playground/018-GenericTypes/bin/Debug/018-GenericTypes.exe
 /Volumes/Mac Backup/iDrive/Code/playground/018-GenericTypes/bin/Debug/018-GenericTypes.pdb
 /Volumes/Mac Backup/iDrive/Code/playground/018-GenericTypes/obj/Debug/018-GenericTypes.csproj.CoreCompileInputs.cache
 /Volumes/Mac Backup/iDrive/Code/playground/018-GenericTypes/obj/Debug/018-GenericTypes.exe
 /Volumes/Mac Backup/iDrive/Code/playground/018-GenericTypes/obj/Debug/018-GenericTypes.pdb
+C:\g\playground\018-GenericTypes\bin\Debug\018-GenericTypes.exe.config
+C:\g\playground\018-GenericTypes\bin\Debug\018-GenericTypes.exe
+C:\g\playground\018-GenericTypes\bin\Debug\018-GenericTypes.pdb
+C:\g\playground\018-GenericTypes\obj\Debug\018-GenericTypes.csproj.CoreCompileInputs.cache
+C:\g\playground\018-GenericTypes\obj\Debug\018-GenericTypes.exe
+C:\g\playground\018-GenericTypes\obj\Debug\018-GenericTypes.pdb

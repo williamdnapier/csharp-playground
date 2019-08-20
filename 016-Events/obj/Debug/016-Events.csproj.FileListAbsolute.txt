@@ -4,3 +4,9 @@
 /Volumes/Mac Backup/iDrive/Code/playground/016-Events/obj/Debug/016-Events.csproj.CoreCompileInputs.cache
 /Volumes/Mac Backup/iDrive/Code/playground/016-Events/obj/Debug/016-Events.exe
 /Volumes/Mac Backup/iDrive/Code/playground/016-Events/obj/Debug/016-Events.pdb
+C:\g\playground\016-Events\bin\Debug\016-Events.exe.config
+C:\g\playground\016-Events\bin\Debug\016-Events.exe
+C:\g\playground\016-Events\bin\Debug\016-Events.pdb
+C:\g\playground\016-Events\obj\Debug\016-Events.csproj.CoreCompileInputs.cache
+C:\g\playground\016-Events\obj\Debug\016-Events.exe
+C:\g\playground\016-Events\obj\Debug\016-Events.pdb

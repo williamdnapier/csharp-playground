@@ -4,3 +4,10 @@
 /Volumes/Mac Backup/iDrive/Code/playground/021-NunitCh2/obj/Debug/021-NunitCh2.csproj.CoreCompileInputs.cache
 /Volumes/Mac Backup/iDrive/Code/playground/021-NunitCh2/obj/Debug/021-NunitCh2.exe
 /Volumes/Mac Backup/iDrive/Code/playground/021-NunitCh2/obj/Debug/021-NunitCh2.pdb
+C:\g\playground\021-NunitCh2\bin\Debug\021-NunitCh2.exe.config
+C:\g\playground\021-NunitCh2\bin\Debug\021-NunitCh2.exe
+C:\g\playground\021-NunitCh2\bin\Debug\021-NunitCh2.pdb
+C:\g\playground\021-NunitCh2\obj\Debug\021-NunitCh2.csprojAssemblyReference.cache
+C:\g\playground\021-NunitCh2\obj\Debug\021-NunitCh2.csproj.CoreCompileInputs.cache
+C:\g\playground\021-NunitCh2\obj\Debug\021-NunitCh2.exe
+C:\g\playground\021-NunitCh2\obj\Debug\021-NunitCh2.pdb

@@ -1,10 +1,3 @@
-C:/g/playground/009-WhenWhereGenerics/obj/Debug/009-WhenWhereGenerics.csprojAssemblyReference.cache
-C:/g/playground/009-WhenWhereGenerics/obj/Debug/009-WhenWhereGenerics.csproj.CoreCompileInputs.cache
-C:/g/playground/009-WhenWhereGenerics/bin/Debug/009-WhenWhereGenerics.exe.config
-C:/g/playground/009-WhenWhereGenerics/bin/Debug/009-WhenWhereGenerics.exe
-C:/g/playground/009-WhenWhereGenerics/bin/Debug/009-WhenWhereGenerics.pdb
-C:/g/playground/009-WhenWhereGenerics/obj/Debug/009-WhenWhereGenerics.exe
-C:/g/playground/009-WhenWhereGenerics/obj/Debug/009-WhenWhereGenerics.pdb
 /Volumes/Mac Backup/iDrive/Code/playground/009-WhenWhereGenerics/bin/Debug/009-WhenWhereGenerics.exe.config
 /Volumes/Mac Backup/iDrive/Code/playground/009-WhenWhereGenerics/bin/Debug/009-WhenWhereGenerics.exe
 /Volumes/Mac Backup/iDrive/Code/playground/009-WhenWhereGenerics/bin/Debug/009-WhenWhereGenerics.pdb
@@ -12,3 +5,9 @@ C:/g/playground/009-WhenWhereGenerics/obj/Debug/009-WhenWhereGenerics.pdb
 /Volumes/Mac Backup/iDrive/Code/playground/009-WhenWhereGenerics/obj/Debug/009-WhenWhereGenerics.csproj.CoreCompileInputs.cache
 /Volumes/Mac Backup/iDrive/Code/playground/009-WhenWhereGenerics/obj/Debug/009-WhenWhereGenerics.exe
 /Volumes/Mac Backup/iDrive/Code/playground/009-WhenWhereGenerics/obj/Debug/009-WhenWhereGenerics.pdb
+C:\g\playground\009-WhenWhereGenerics\bin\Debug\009-WhenWhereGenerics.exe.config
+C:\g\playground\009-WhenWhereGenerics\bin\Debug\009-WhenWhereGenerics.exe
+C:\g\playground\009-WhenWhereGenerics\bin\Debug\009-WhenWhereGenerics.pdb
+C:\g\playground\009-WhenWhereGenerics\obj\Debug\009-WhenWhereGenerics.csproj.CoreCompileInputs.cache
+C:\g\playground\009-WhenWhereGenerics\obj\Debug\009-WhenWhereGenerics.exe
+C:\g\playground\009-WhenWhereGenerics\obj\Debug\009-WhenWhereGenerics.pdb

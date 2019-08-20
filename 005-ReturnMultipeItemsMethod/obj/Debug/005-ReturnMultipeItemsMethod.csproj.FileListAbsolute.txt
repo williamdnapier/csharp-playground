@@ -5,3 +5,10 @@
 /Volumes/Mac Backup/iDrive/Code/playground/005-ReturnMultipeItemsMethod/obj/Debug/005-ReturnMultipeItemsMethod.csproj.CoreCompileInputs.cache
 /Volumes/Mac Backup/iDrive/Code/playground/005-ReturnMultipeItemsMethod/obj/Debug/ReturnMultipeItemsMethod.exe
 /Volumes/Mac Backup/iDrive/Code/playground/005-ReturnMultipeItemsMethod/obj/Debug/ReturnMultipeItemsMethod.pdb
+C:\g\playground\005-ReturnMultipeItemsMethod\bin\Debug\ReturnMultipeItemsMethod.exe.config
+C:\g\playground\005-ReturnMultipeItemsMethod\bin\Debug\ReturnMultipeItemsMethod.exe
+C:\g\playground\005-ReturnMultipeItemsMethod\bin\Debug\ReturnMultipeItemsMethod.pdb
+C:\g\playground\005-ReturnMultipeItemsMethod\obj\Debug\005-ReturnMultipeItemsMethod.csprojAssemblyReference.cache
+C:\g\playground\005-ReturnMultipeItemsMethod\obj\Debug\005-ReturnMultipeItemsMethod.csproj.CoreCompileInputs.cache
+C:\g\playground\005-ReturnMultipeItemsMethod\obj\Debug\ReturnMultipeItemsMethod.exe
+C:\g\playground\005-ReturnMultipeItemsMethod\obj\Debug\ReturnMultipeItemsMethod.pdb

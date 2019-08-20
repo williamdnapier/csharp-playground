@@ -1,0 +1,7 @@
+C:\g\playground\025-MyApp\bin\Debug\025-MyApp.exe.config
+C:\g\playground\025-MyApp\bin\Debug\025-MyApp.exe
+C:\g\playground\025-MyApp\bin\Debug\025-MyApp.pdb
+C:\g\playground\025-MyApp\obj\Debug\025-MyApp.csprojAssemblyReference.cache
+C:\g\playground\025-MyApp\obj\Debug\025-MyApp.csproj.CoreCompileInputs.cache
+C:\g\playground\025-MyApp\obj\Debug\025-MyApp.exe
+C:\g\playground\025-MyApp\obj\Debug\025-MyApp.pdb

@@ -5,3 +5,10 @@
 /Volumes/Mac Backup/iDrive/Code/playground/013-Delegates/obj/Debug/013-Delegates.csproj.CoreCompileInputs.cache
 /Volumes/Mac Backup/iDrive/Code/playground/013-Delegates/obj/Debug/013-Delegates.exe
 /Volumes/Mac Backup/iDrive/Code/playground/013-Delegates/obj/Debug/013-Delegates.pdb
+C:\g\playground\013-Delegates\bin\Debug\013-Delegates.exe.config
+C:\g\playground\013-Delegates\bin\Debug\013-Delegates.exe
+C:\g\playground\013-Delegates\bin\Debug\013-Delegates.pdb
+C:\g\playground\013-Delegates\obj\Debug\013-Delegates.csprojAssemblyReference.cache
+C:\g\playground\013-Delegates\obj\Debug\013-Delegates.csproj.CoreCompileInputs.cache
+C:\g\playground\013-Delegates\obj\Debug\013-Delegates.exe
+C:\g\playground\013-Delegates\obj\Debug\013-Delegates.pdb

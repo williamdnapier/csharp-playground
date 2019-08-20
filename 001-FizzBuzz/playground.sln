@@ -47,6 +47,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "021-NunitCh2", "..\021-Nuni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "021-NunitCh2.Tests.2", "..\021-NunitCh2.Tests.2\021-NunitCh2.Tests.2.csproj", "{24CDF770-1CD4-4AB2-AA84-DA825BEF9FEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "025-MyApp", "..\025-MyApp\025-MyApp.csproj", "{BD9F1D37-9664-49AE-83FD-A440091F46CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "025-MyApp.Tests", "..\025-MyApp.Tests\025-MyApp.Tests.csproj", "{29B4774F-A0FB-4073-BD69-A9E6436B708A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +145,14 @@ Global
 		{24CDF770-1CD4-4AB2-AA84-DA825BEF9FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24CDF770-1CD4-4AB2-AA84-DA825BEF9FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24CDF770-1CD4-4AB2-AA84-DA825BEF9FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD9F1D37-9664-49AE-83FD-A440091F46CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD9F1D37-9664-49AE-83FD-A440091F46CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD9F1D37-9664-49AE-83FD-A440091F46CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD9F1D37-9664-49AE-83FD-A440091F46CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29B4774F-A0FB-4073-BD69-A9E6436B708A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29B4774F-A0FB-4073-BD69-A9E6436B708A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29B4774F-A0FB-4073-BD69-A9E6436B708A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29B4774F-A0FB-4073-BD69-A9E6436B708A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
