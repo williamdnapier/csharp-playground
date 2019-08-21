@@ -13,20 +13,40 @@ namespace _025_MyApp
             return i + j;
         }
 
-        private object mObj;
-        public object Obj
+        private object mAbacus;
+        public object Abacus
         {
-            get => mObj;
-            set => mObj = value;
+            get => mAbacus;
+            set => mAbacus = value;
         }
-        public object Obj2
+        public object AncientCalculator
         {
-            get => mObj;
-            set => mObj = value;
+            get => mAbacus;
+            set => mAbacus = value;
         }
         public MyMath()
         {
+            //Empty constructor
+        }
 
+        public bool ZeroEqualsOne()
+        {
+            return 0 == 1;
+        }
+
+        public bool ZeroEqualsZero()
+        {
+            return 0 == 0;
+        }
+
+        public object GetStudentsBrain(object brain)
+        {
+            return brain;
+        }
+
+        public object GetTeachersBrain(object brain)
+        {
+            return brain;
         }
     } 
 }
