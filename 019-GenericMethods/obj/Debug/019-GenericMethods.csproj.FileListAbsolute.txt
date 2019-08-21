@@ -4,18 +4,18 @@
 /Volumes/Mac Backup/iDrive/Code/playground/019-GenericMethods/obj/Debug/019-GenericMethods.csproj.CoreCompileInputs.cache
 /Volumes/Mac Backup/iDrive/Code/playground/019-GenericMethods/obj/Debug/019-GenericMethods.exe
 /Volumes/Mac Backup/iDrive/Code/playground/019-GenericMethods/obj/Debug/019-GenericMethods.pdb
-C:\g\playground\019-GenericMethods\bin\Debug\019-GenericMethods.exe.config
-C:\g\playground\019-GenericMethods\bin\Debug\019-GenericMethods.exe
-C:\g\playground\019-GenericMethods\bin\Debug\019-GenericMethods.pdb
-C:\g\playground\019-GenericMethods\obj\Debug\019-GenericMethods.csproj.CoreCompileInputs.cache
-C:\g\playground\019-GenericMethods\obj\Debug\019-GenericMethods.exe
-C:\g\playground\019-GenericMethods\obj\Debug\019-GenericMethods.pdb
 C:\g\playground\019-GenericMethods\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\g\playground\019-GenericMethods\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\g\playground\019-GenericMethods\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\g\playground\019-GenericMethods\bin\Debug\019-GenericMethods.exe.config
+C:\g\playground\019-GenericMethods\bin\Debug\019-GenericMethods.exe
+C:\g\playground\019-GenericMethods\bin\Debug\019-GenericMethods.pdb
 C:\g\playground\019-GenericMethods\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 C:\g\playground\019-GenericMethods\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 C:\g\playground\019-GenericMethods\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\g\playground\019-GenericMethods\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\g\playground\019-GenericMethods\obj\Debug\019-GenericMethods.csprojAssemblyReference.cache
+C:\g\playground\019-GenericMethods\obj\Debug\019-GenericMethods.csproj.CoreCompileInputs.cache
 C:\g\playground\019-GenericMethods\obj\Debug\019-GenericMethods.csproj.CopyComplete
+C:\g\playground\019-GenericMethods\obj\Debug\019-GenericMethods.exe
+C:\g\playground\019-GenericMethods\obj\Debug\019-GenericMethods.pdb

@@ -8,6 +8,7 @@
 C:\g\playground\012-LambdaExpressions\bin\Debug\012-LambdaExpressions.exe.config
 C:\g\playground\012-LambdaExpressions\bin\Debug\012-LambdaExpressions.exe
 C:\g\playground\012-LambdaExpressions\bin\Debug\012-LambdaExpressions.pdb
+C:\g\playground\012-LambdaExpressions\obj\Debug\012-LambdaExpressions.csprojAssemblyReference.cache
 C:\g\playground\012-LambdaExpressions\obj\Debug\012-LambdaExpressions.csproj.CoreCompileInputs.cache
 C:\g\playground\012-LambdaExpressions\obj\Debug\012-LambdaExpressions.exe
 C:\g\playground\012-LambdaExpressions\obj\Debug\012-LambdaExpressions.pdb

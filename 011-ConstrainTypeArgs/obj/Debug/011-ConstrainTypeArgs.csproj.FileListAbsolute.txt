@@ -8,6 +8,7 @@
 C:\g\playground\011-ConstrainTypeArgs\bin\Debug\011-ConstrainTypeArgs.exe.config
 C:\g\playground\011-ConstrainTypeArgs\bin\Debug\011-ConstrainTypeArgs.exe
 C:\g\playground\011-ConstrainTypeArgs\bin\Debug\011-ConstrainTypeArgs.pdb
+C:\g\playground\011-ConstrainTypeArgs\obj\Debug\011-ConstrainTypeArgs.csprojAssemblyReference.cache
 C:\g\playground\011-ConstrainTypeArgs\obj\Debug\011-ConstrainTypeArgs.csproj.CoreCompileInputs.cache
 C:\g\playground\011-ConstrainTypeArgs\obj\Debug\011-ConstrainTypeArgs.exe
 C:\g\playground\011-ConstrainTypeArgs\obj\Debug\011-ConstrainTypeArgs.pdb
