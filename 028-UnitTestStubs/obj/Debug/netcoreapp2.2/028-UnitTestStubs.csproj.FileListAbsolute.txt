@@ -1,0 +1,14 @@
+C:\g\playground\028-UnitTestStubs\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\g\playground\028-UnitTestStubs\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\g\playground\028-UnitTestStubs\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\g\playground\028-UnitTestStubs\bin\Debug\netcoreapp2.2\028-UnitTestStubs.deps.json
+C:\g\playground\028-UnitTestStubs\bin\Debug\netcoreapp2.2\028-UnitTestStubs.runtimeconfig.json
+C:\g\playground\028-UnitTestStubs\bin\Debug\netcoreapp2.2\028-UnitTestStubs.runtimeconfig.dev.json
+C:\g\playground\028-UnitTestStubs\bin\Debug\netcoreapp2.2\028-UnitTestStubs.dll
+C:\g\playground\028-UnitTestStubs\bin\Debug\netcoreapp2.2\028-UnitTestStubs.pdb
+C:\g\playground\028-UnitTestStubs\obj\Debug\netcoreapp2.2\028-UnitTestStubs.csprojAssemblyReference.cache
+C:\g\playground\028-UnitTestStubs\obj\Debug\netcoreapp2.2\028-UnitTestStubs.csproj.CoreCompileInputs.cache
+C:\g\playground\028-UnitTestStubs\obj\Debug\netcoreapp2.2\028-UnitTestStubs.AssemblyInfoInputs.cache
+C:\g\playground\028-UnitTestStubs\obj\Debug\netcoreapp2.2\028-UnitTestStubs.AssemblyInfo.cs
+C:\g\playground\028-UnitTestStubs\obj\Debug\netcoreapp2.2\028-UnitTestStubs.dll
+C:\g\playground\028-UnitTestStubs\obj\Debug\netcoreapp2.2\028-UnitTestStubs.pdb
