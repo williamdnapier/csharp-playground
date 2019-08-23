@@ -57,7 +57,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "026-WebAppMvc.Tests", "..\0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "027-WebAppMvcRazor", "..\027-WebAppMvcRazor\027-WebAppMvcRazor.csproj", "{1858E649-4C0D-49D9-AAFE-D24EDC8F8382}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "028-UnitTestStubs", "..\028-UnitTestStubs\028-UnitTestStubs.csproj", "{20FA68F6-CD26-4031-BDA1-F2A4AE1398D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "028-UnitTestStubs", "..\028-UnitTestStubs\028-UnitTestStubs.csproj", "{20FA68F6-CD26-4031-BDA1-F2A4AE1398D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "029-Generics", "..\029-Generics\029-Generics.csproj", "{C97E6B7C-D2B6-44B6-A05F-D13F1895BE80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{20FA68F6-CD26-4031-BDA1-F2A4AE1398D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20FA68F6-CD26-4031-BDA1-F2A4AE1398D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20FA68F6-CD26-4031-BDA1-F2A4AE1398D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C97E6B7C-D2B6-44B6-A05F-D13F1895BE80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C97E6B7C-D2B6-44B6-A05F-D13F1895BE80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C97E6B7C-D2B6-44B6-A05F-D13F1895BE80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C97E6B7C-D2B6-44B6-A05F-D13F1895BE80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,11 @@
+C:\g\playground\029-Generics\bin\Debug\netcoreapp2.2\029-Generics.deps.json
+C:\g\playground\029-Generics\bin\Debug\netcoreapp2.2\029-Generics.runtimeconfig.json
+C:\g\playground\029-Generics\bin\Debug\netcoreapp2.2\029-Generics.runtimeconfig.dev.json
+C:\g\playground\029-Generics\bin\Debug\netcoreapp2.2\029-Generics.dll
+C:\g\playground\029-Generics\bin\Debug\netcoreapp2.2\029-Generics.pdb
+C:\g\playground\029-Generics\obj\Debug\netcoreapp2.2\029-Generics.csprojAssemblyReference.cache
+C:\g\playground\029-Generics\obj\Debug\netcoreapp2.2\029-Generics.csproj.CoreCompileInputs.cache
+C:\g\playground\029-Generics\obj\Debug\netcoreapp2.2\029-Generics.AssemblyInfoInputs.cache
+C:\g\playground\029-Generics\obj\Debug\netcoreapp2.2\029-Generics.AssemblyInfo.cs
+C:\g\playground\029-Generics\obj\Debug\netcoreapp2.2\029-Generics.dll
+C:\g\playground\029-Generics\obj\Debug\netcoreapp2.2\029-Generics.pdb
