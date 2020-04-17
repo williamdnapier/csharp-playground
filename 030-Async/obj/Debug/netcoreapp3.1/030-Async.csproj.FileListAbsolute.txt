@@ -1,0 +1,13 @@
+C:\g\csharp-playground\030-Async\bin\Debug\netcoreapp3.1\030-Async.exe
+C:\g\csharp-playground\030-Async\bin\Debug\netcoreapp3.1\030-Async.deps.json
+C:\g\csharp-playground\030-Async\bin\Debug\netcoreapp3.1\030-Async.runtimeconfig.json
+C:\g\csharp-playground\030-Async\bin\Debug\netcoreapp3.1\030-Async.runtimeconfig.dev.json
+C:\g\csharp-playground\030-Async\bin\Debug\netcoreapp3.1\030-Async.dll
+C:\g\csharp-playground\030-Async\bin\Debug\netcoreapp3.1\030-Async.pdb
+C:\g\csharp-playground\030-Async\obj\Debug\netcoreapp3.1\030-Async.csprojAssemblyReference.cache
+C:\g\csharp-playground\030-Async\obj\Debug\netcoreapp3.1\030-Async.csproj.CoreCompileInputs.cache
+C:\g\csharp-playground\030-Async\obj\Debug\netcoreapp3.1\030-Async.AssemblyInfoInputs.cache
+C:\g\csharp-playground\030-Async\obj\Debug\netcoreapp3.1\030-Async.AssemblyInfo.cs
+C:\g\csharp-playground\030-Async\obj\Debug\netcoreapp3.1\030-Async.dll
+C:\g\csharp-playground\030-Async\obj\Debug\netcoreapp3.1\030-Async.pdb
+C:\g\csharp-playground\030-Async\obj\Debug\netcoreapp3.1\030-Async.genruntimeconfig.cache

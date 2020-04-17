@@ -59,7 +59,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "027-WebAppMvcRazor", "..\02
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "028-UnitTestStubs", "..\028-UnitTestStubs\028-UnitTestStubs.csproj", "{20FA68F6-CD26-4031-BDA1-F2A4AE1398D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "029-Generics", "..\029-Generics\029-Generics.csproj", "{C97E6B7C-D2B6-44B6-A05F-D13F1895BE80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "029-Generics", "..\029-Generics\029-Generics.csproj", "{C97E6B7C-D2B6-44B6-A05F-D13F1895BE80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "030-Async", "..\030-Async\030-Async.csproj", "{B755B708-07F3-4AD1-BFE8-BCB48F051224}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +185,10 @@ Global
 		{C97E6B7C-D2B6-44B6-A05F-D13F1895BE80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C97E6B7C-D2B6-44B6-A05F-D13F1895BE80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C97E6B7C-D2B6-44B6-A05F-D13F1895BE80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B755B708-07F3-4AD1-BFE8-BCB48F051224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B755B708-07F3-4AD1-BFE8-BCB48F051224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B755B708-07F3-4AD1-BFE8-BCB48F051224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B755B708-07F3-4AD1-BFE8-BCB48F051224}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1686,7 +1686,7 @@
       ]
     },
     "Microsoft.CSharp/4.0.1": {
-      "sha512": "qei3QvQC2QanVU8VgBz4MSjOZ4Lm5NYtVFW/q4uLdiy13Dg2s4tjSpz9GiJ1+NWGU/RT9sd84zx72zPPaXEdNg==",
+      "sha512": "17h8b5mXa87XYKrrVqdgZ38JefSUqLChUQpXgSnpzsM0nDOhE40FTeNWOJ/YmySGV6tG6T8+hjz6vxbknHJr6A==",
       "type": "package",
       "path": "microsoft.csharp/4.0.1",
       "files": [
@@ -2854,7 +2854,7 @@
       ]
     },
     "System.Collections.NonGeneric/4.3.0": {
-      "sha512": "prtjIEMhGUnQq6RnPEYLpFt8AtLbp9yq2zxOSrY7KJJZrw25Fi97IzBqY7iqssbM61Ek5b8f3MG/sG1N2sN5KA==",
+      "sha512": "LE/oChpRvkSi3U25u0KnJcI44JeDZ1QJCyN4qFDx2uusEypdqR24w7lKYw21eYe5esuCBuc862wRmpF63Yy1KQ==",
       "type": "package",
       "path": "system.collections.nongeneric/4.3.0",
       "files": [
@@ -3096,7 +3096,7 @@
       ]
     },
     "System.ComponentModel.TypeConverter/4.3.0": {
-      "sha512": "16pQ6P+EdhcXzPiEK4kbA953Fu0MNG2ovxTZU81/qsCd1zPRsKc3uif5NgvllCY598k6bI0KUyKW8fanlfaDQg==",
+      "sha512": "HZiP0DwTHJ+C+rdFqP47nBYUh5283kcwXIGY2zOVVhsJmVI/2tYiX2zNRdjRQRHsTox58Ydkec6h0pWSh8wAsw==",
       "type": "package",
       "path": "system.componentmodel.typeconverter/4.3.0",
       "files": [
@@ -3496,7 +3496,7 @@
       ]
     },
     "System.Dynamic.Runtime/4.0.11": {
-      "sha512": "5MKb+YmR1yNw2wfYYln7wgwMy3b+xIBwktp/eAJcQGFto6SsA9grXxIatHCN3MF/FMDnZcuGArHLCx1NqL5eDQ==",
+      "sha512": "db34f6LHYM0U0JpE+sOmjar27BnqTVkbLJhgfwMpTdgTigG/Hna3m2MYVwnFzGGKnEJk2UXFuoVTr8WUbU91/A==",
       "type": "package",
       "path": "system.dynamic.runtime/4.0.11",
       "files": [
@@ -5378,7 +5378,7 @@
       ]
     },
     "System.Threading.ThreadPool/4.3.0": {
-      "sha512": "k/+g4b7vjdd4aix83sTgC9VG6oXYKAktSfNIJUNGxPEj7ryEOfzHHhfnmsZvjxawwcD9HyWXKCXmPjX8U4zeSw==",
+      "sha512": "SrCOmTvvOOCmJT4BBxdZcwhz6XEMsjBGZvGSVorOxdCznaUNeVotEjDfXGIZ8gcGo00qgPbTV6puHDgcFYl6Iw==",
       "type": "package",
       "path": "system.threading.threadpool/4.3.0",
       "files": [
@@ -5750,23 +5750,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bill.napier\\.nuget\\packages\\": {},
+    "C:\\Users\\william.napier\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\g\\playground\\028-UnitTestStubs\\028-UnitTestStubs.csproj",
+      "projectUniqueName": "C:\\g\\csharp-playground\\028-UnitTestStubs\\028-UnitTestStubs.csproj",
       "projectName": "028-UnitTestStubs",
-      "projectPath": "C:\\g\\playground\\028-UnitTestStubs\\028-UnitTestStubs.csproj",
-      "packagesPath": "C:\\Users\\bill.napier\\.nuget\\packages\\",
-      "outputPath": "C:\\g\\playground\\028-UnitTestStubs\\obj\\",
+      "projectPath": "C:\\g\\csharp-playground\\028-UnitTestStubs\\028-UnitTestStubs.csproj",
+      "packagesPath": "C:\\Users\\william.napier\\.nuget\\packages\\",
+      "outputPath": "C:\\g\\csharp-playground\\028-UnitTestStubs\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\bill.napier\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\william.napier\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5774,7 +5774,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.myget.org/F/linqkit/api/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.2": {
@@ -5810,10 +5811,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
